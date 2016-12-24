@@ -21,7 +21,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 
     //log.Verbose($"{data}");
 
-    var faceAttributes = data.outputs.body.faceAttributes;
+    var faceAttributes = data.body.faceAttributes;
 
     log.Verbose($"{faceAttributes}");
 
