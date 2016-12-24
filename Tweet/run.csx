@@ -28,7 +28,8 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 
         if (replyToStatusId != 0)
         {
-            tweetText = "@kerokero_rain" + tweetText;
+            var replyTo = ConfigurationManager.AppSettings["REPLY_TO"];
+            tweetText = replyTo + " " + tweetText;
         }
 
         ret = Tweet(replyToStatusId, tweetText, mediaUrl);
