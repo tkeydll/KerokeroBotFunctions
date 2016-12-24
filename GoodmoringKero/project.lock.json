@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "CoreTweet/0.7.2.352": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net45/CoreTweet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CoreTweet.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreTweet/0.7.2.352": {
+      "sha512": "BA24Ct4MKpw162edo/6+eqKLS8k5DUD4w3oxBGC77DYmHVf9Dw7PVbi5sgSa7YyBUb9EzPZgE3DdBv7hyt0b/Q==",
+      "type": "package",
+      "path": "coretweet/0.7.2.352",
+      "files": [
+        "coretweet.0.7.2.352.nupkg.sha512",
+        "coretweet.nuspec",
+        "lib/monoandroid10/CoreTweet.dll",
+        "lib/monoandroid10/CoreTweet.xml",
+        "lib/monotouch10/CoreTweet.dll",
+        "lib/monotouch10/CoreTweet.xml",
+        "lib/net35/CoreTweet.dll",
+        "lib/net35/CoreTweet.xml",
+        "lib/net40/CoreTweet.dll",
+        "lib/net40/CoreTweet.xml",
+        "lib/net45/CoreTweet.dll",
+        "lib/net45/CoreTweet.xml",
+        "lib/netstandard1.1/CoreTweet.dll",
+        "lib/netstandard1.1/CoreTweet.xml",
+        "lib/netstandard1.5/CoreTweet.dll",
+        "lib/netstandard1.5/CoreTweet.xml",
+        "lib/portable-win81+wpa81/CoreTweet.dll",
+        "lib/portable-win81+wpa81/CoreTweet.xml",
+        "lib/portable45-net45+win8+wpa81/CoreTweet.dll",
+        "lib/portable45-net45+win8+wpa81/CoreTweet.xml",
+        "lib/xamarinios10/CoreTweet.dll",
+        "lib/xamarinios10/CoreTweet.xml"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "CoreTweet >= 0.7.2.352"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}
