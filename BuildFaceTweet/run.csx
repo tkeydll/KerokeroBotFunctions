@@ -19,11 +19,11 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
     string jsonContent = await req.Content.ReadAsStringAsync();
     dynamic data = JsonConvert.DeserializeObject(jsonContent);
 
-    log.Verbose($"{data}");
+    //log.Verbose($"{data}");
 
-    var faceAttributes = data.body.faceAttributes;
+    var faceAttributes = data.outputs.body.faceAttributes;
 
-    log.Verbose($"{data}");
+    log.Verbose($"{faceAttributes}");
 
     return req.CreateResponse(HttpStatusCode.OK, new {
         age = faceAttributes.age
