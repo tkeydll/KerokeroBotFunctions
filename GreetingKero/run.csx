@@ -26,7 +26,7 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
                 tweetText = "明けましておめでとうけろ🐸";
             }
         default:
-            return -1;
+            return;
     }
 
     var tweetId = Tweet(null, tweetText, null);
