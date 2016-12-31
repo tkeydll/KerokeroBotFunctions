@@ -11,8 +11,8 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
 
     var d = DateTime.Now;
 
-    log.Info(d.Hour);
-    log.Info(d.Minute);
+    log.Info(d.Hour.ToString());
+    log.Info(d.Minute.ToString());
 
     switch (d.Hour)
     {
