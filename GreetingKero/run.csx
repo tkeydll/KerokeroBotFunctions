@@ -15,7 +15,15 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
     {
         case 14:
             log.Info($"23時");
-            if (d.Minute == 59)
+            if (d.Minute == 56)
+            {
+                tweetText = "今年一年世話になったけろ🐸";
+            }
+            if (d.Minute == 57)
+            {
+                tweetText = "来年もよろしく。";
+            }
+            if (d.Minute == 58)
             {
                 tweetText = "良いお年を！";
             }
@@ -24,7 +32,7 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
             log.Info($"0時");
             if (d.Minute == 0)
             {
-                tweetText = "明けましておめでとうけろ🐸";
+                tweetText = "明けましておめでとうけろ🐸🐸🐸";
             }
             break;
         default:
