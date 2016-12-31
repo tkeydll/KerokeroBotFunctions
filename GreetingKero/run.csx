@@ -11,10 +11,12 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
 
     var d = DateTime.Now;
 
+    log.Info(d.Hour);
+    log.Info(d.Minute);
+
     switch (d.Hour)
     {
         case 14:
-            log.Info($"23時");
             if (d.Minute == 56)
             {
                 tweetText = "今年一年世話になったけろ🐸";
@@ -29,7 +31,6 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
             }
             break;
         case 15:
-            log.Info($"0時");
             if (d.Minute == 0)
             {
                 tweetText = "明けましておめでとうけろ🐸🐸🐸";
