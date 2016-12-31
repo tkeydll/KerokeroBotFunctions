@@ -9,7 +9,7 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
 
     string tweetText = string.Empty;
 
-    var d = DateTime.Now();
+    var d = DateTime.Now;
 
     switch (d.Hour)
     {
@@ -19,12 +19,14 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
             {
                 tweetText = "良いお年を！";
             }
+            break;
         case 15:
             log.Info($"0時");
             if (d.Minute == 0)
             {
                 tweetText = "明けましておめでとうけろ🐸";
             }
+            break;
         default:
             return;
     }
