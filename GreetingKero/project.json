@@ -1,9 +1,0 @@
-{
-  "frameworks": {
-    "net46":{
-      "dependencies": {
-        "CoreTweet": "0.7.2.352"
-      }
-    }
-   }
-}
