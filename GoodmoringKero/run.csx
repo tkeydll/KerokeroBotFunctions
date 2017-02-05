@@ -46,6 +46,5 @@ private static IList<string> InitMessage()
     list.Add("おはようけろ🐸♪");
     list.Add("また寝るけろ🐸💤");
     list.Add("💤");
-    list.Add("早く目覚めないかな。");
     return list;
 }
