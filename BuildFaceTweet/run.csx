@@ -20,6 +20,6 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
     var faceAttributes = data[0].faceAttributes;
 
     return req.CreateResponse(HttpStatusCode.OK, new {
-        TweetText = $"推定 {faceAttributes.age} 歳だけろ🐸"
+        TweetText = $"{faceAttributes.age}"
     });
 }
