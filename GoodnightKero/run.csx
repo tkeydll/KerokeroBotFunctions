@@ -11,6 +11,8 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
     var tweetText = GetRandomMessage(messages);
     var tweetId = Tweet(null, tweetText, null);
 
+    log.Info(ConfigurationManager.AppSettings["TWITTER_API_KEY"]);
+    
     log.Info($"TweetId: {tweetId}");
 }
 
